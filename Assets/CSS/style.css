@@ -17,8 +17,8 @@ body {
     margin-bottom: 15px;
 }
 .card {
-margin-bottom: 15px;
-margin-top: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 .portfolioparagrah {
     background-color: rgb(187, 212, 187);
@@ -29,6 +29,7 @@ margin-top: 15px;
 }
 @media screen and (min-width: 400px) {
 body{
-    margin: 0
+    margin: 0;
+    padding: 0;
 }
 }
