@@ -1,0 +1,10 @@
+h1 {
+    color: whitesmoke;
+    background-color: rgba(57, 85, 63, 0.753);
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.carousel-item {
+    height: 100%;
+}
