@@ -27,6 +27,10 @@ body {
 .col-md-04 {
     height: 20%;
 }
+.wrapper {
+    width: 600px;
+    margin: auto;
+}
 .footer {
     position: fixed;
     left: 0;
