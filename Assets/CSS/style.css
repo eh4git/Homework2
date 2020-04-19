@@ -5,6 +5,11 @@ h1 {
     margin-bottom: 0;
     padding: 20px;
 }
+img {
+    width: 400px;
+    height: 400px;
+    padding-top: 15px;
+}
 body {
     background-color: rgb(216, 230, 216);
 }
@@ -39,6 +44,7 @@ body {
     background-color: rgb(187,212,187);
     color: white;
     text-align: center;
+}
 @media screen and (min-width: 400px) {
 body{
     margin: 0;
