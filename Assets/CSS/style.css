@@ -5,35 +5,50 @@ h1 {
     margin-bottom: 0;
     padding: 20px;
 }
-img {
-    width: 400px;
-    height: 400px;
-    padding-top: 15px;
-}
+
 body {
     background-color: rgb(216, 230, 216);
+    font-family: 'Istok Web', sans-serif;
+}
+h2 {
+    margin-bottom: 20px;
+}
+img {
+    min-width: 100%;
 }
 .container {
     color: green;
     margin-top: 15px;
+    margin-bottom: 60px;
+    height: 650px;
 }
 .carousel-item {
-    height: 375px;
     margin-bottom: 15px;
+    width: 100%;
+    height: 100%;
 }
 .card {
     margin-bottom: 15px;
     margin-top: 15px;
 }
-.portfolioparagrah {
+.top-right-card {
     background-color: rgb(187, 212, 187);
     padding: 30px;
 }
-.col-md-04 {
-    height: 20%;
+.sub-col {
+    
 }
 .wrapper {
-    width: 600px;
+    height: 650px;
+    margin: auto;
+    overflow: auto;
+    object-fit: contain;
+
+
+}
+.card-img-top {
+    height: 358px;
+    width: 538px;
     margin: auto;
 }
 .footer {
@@ -42,10 +57,18 @@ body {
     bottom: 0;
     width: 100%;
     background-color: rgb(187,212,187);
-    color: white;
+    color: whitesmoke;
     text-align: center;
+    opacity: 0.8;
 }
-@media screen and (min-width: 400px) {
+.contact-form {
+    font-family: 'Barlow Condensed';
+    color: whitesmoke;
+    background-color: rgba(57, 85, 63, 0.753);
+    padding: 40px;
+
+}
+@media screen and (min-width: 576px) {
 body{
     margin: 0;
     padding: 0;
