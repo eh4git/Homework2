@@ -1,81 +1,109 @@
+
+p{
+    font-size: larger;
+}
 h1 {
-    font-family: 'Philosopher', sans-serif;
-    color: whitesmoke;
-    background-color: rgba(57, 85, 63, 0.753);
-    margin-bottom: 0;
-    padding: 20px;
+  font-family: "Philosopher", sans-serif;
+  color: whitesmoke;
+  background-color: rgba(57, 85, 63, 0.753);
+  margin-bottom: 0;
+  padding: 20px;
 }
 
 body {
-    background-color: rgb(216, 230, 216);
-    font-family: 'Istok Web', sans-serif;
+  background-color: rgb(216, 230, 216);
+  font-family: "Istok Web", sans-serif;
 }
 h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 img {
-    min-width: 100%;
+  min-width: 100%;
 }
 .container {
-    color: green;
-    margin-top: 15px;
-    margin-bottom: 60px;
-    height: 650px;
+  color: rgb(131, 74, 0);
+  margin-top: 15px;
+  margin-bottom: 60px;
+  height: 650px;
 }
 .carousel-item {
-    margin-bottom: 15px;
-    width: 100%;
-    height: 100%;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 100%;
 }
 .carousel-item img {
-    width: auto;
-    height: 650px;
-    max-height: 650px;
+  width: auto;
+  height: 650px;
+  max-height: 650px;
 }
 .card {
-    margin-bottom: 15px;
-    margin-top: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
-.top-right-card {
-    background-color: rgb(187, 212, 187);
-    padding: 30px;
-}
-.sub-col {
-    
-}
-.wrapper {
-    height: 650px;
-    margin: auto;
-    
-    object-fit: contain;
-
-
-}
-.card-img-top {
-    height: 358px;
-    width: 538px;
-    margin: auto;
-}
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(187,212,187);
-    color: whitesmoke;
-    text-align: center;
-    opacity: 0.8;
-}
-.contact-form {
-    font-family: 'Barlow Condensed';
-    color: whitesmoke;
-    background-color: rgba(57, 85, 63, 0.753);
-    padding: 40px;
-
-}
-@media screen and (min-width: 576px) {
-body{
-    margin: 0;
+.top-left-card {
     padding: 0;
 }
+.top-right-card {
+  background-color: rgb(187, 212, 187);
+  padding: 30px;
 }
+.sub-col {
+}
+.wrapper {
+  height: 650px; 
+  margin: auto;
+  object-fit: contain;
+}
+.card-img-top {
+  height: 358px;
+   width: 538px; 
+  margin: auto;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(187, 212, 187);
+  color: whitesmoke;
+  text-align: center;
+  opacity: 0.8;
+}
+.contact-form {
+  font-family: "Barlow Condensed";
+  color: whitesmoke;
+  background-color: rgba(57, 85, 63, 0.753);
+  padding: 40px;
+}
+.col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.aboutmetext .col-md-6 {
+    background-color: rgba(57, 85, 63, 0.753);
+}
+@media screen and (min-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/*tutoring css (set divs to have images as backgrounds)*/
+/* body .carousel-item > .d-block.w-100 {
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+
+body .carousel-item:nth-child(1) .d-block.w-100 {
+  transform: rotate(90deg);
+}
+
+.carousel-fade .carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
