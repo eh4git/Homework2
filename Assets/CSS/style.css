@@ -11,54 +11,40 @@ h1 {
 }
 
 body {
-  background-color: rgb(216, 230, 216);
-  font-family: "Istok Web", sans-serif;
+  background-image: url('./../images/bigbearlakesunset.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 h2 {
   margin-bottom: 20px;
 }
-img {
-  min-width: 100%;
-}
+
 .container {
   color: rgb(131, 74, 0);
   margin-top: 15px;
-  margin-bottom: 60px;
   height: 650px;
 }
-.carousel-item {
-  margin-bottom: 15px;
-  width: 100%;
-  height: 100%;
-}
-.carousel-item img {
-  width: auto;
-  height: 650px;
-  max-height: 650px;
+#borderAdj{
+  padding-bottom: 60px;
 }
 .card {
   margin-bottom: 15px;
   margin-top: 15px;
+  background-color: transparent;
+  border: none;
 }
-.top-left-card {
-    padding: 0;
+.cardContainer{
+  padding: 15px;
+  opacity: 0.95;
+  background-color: rgba(57, 85, 63, 0.753);
+  border-radius: 10px;
+  color: whitesmoke;
 }
 .top-right-card {
-  background-color: rgb(187, 212, 187);
   padding: 30px;
 }
-.sub-col {
-}
-.wrapper {
-  height: 650px; 
-  margin: auto;
-  object-fit: contain;
-}
-.card-img-top {
-  height: 358px;
-   width: 538px; 
-  margin: auto;
-}
+
 .footer {
   position: fixed;
   left: 0;
@@ -75,12 +61,11 @@ img {
   background-color: rgba(57, 85, 63, 0.753);
   padding: 40px;
 }
-.col-md-12 {
-    padding-left: 0;
-    padding-right: 0;
-}
 .aboutmetext .col-md-6 {
-    background-color: rgba(57, 85, 63, 0.753);
+  background-color: rgba(57, 85, 63, 0.753);
+}
+.navbar{
+  opacity: .8;
 }
 @media screen and (min-width: 576px) {
   body {
@@ -89,21 +74,19 @@ img {
   }
 }
 
-/*tutoring css (set divs to have images as backgrounds)*/
-/* body .carousel-item > .d-block.w-100 {
-  height: 500px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 center;
-}
 
-body .carousel-item:nth-child(1) .d-block.w-100 {
-  transform: rotate(90deg);
+/* .wrapper {
+   height: 650px; 
+   margin: auto;
+   object-fit: contain;
+ } */
+/* .carousel-item {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 100%;
 }
-
-.carousel-fade .carousel-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.carousel-item img {
+  width: auto;
+  height: 650px;
+  max-height: 650px;
 } */
-
