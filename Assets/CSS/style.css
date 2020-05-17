@@ -20,13 +20,15 @@ a{
 }
 a:hover {
   color: rgb(181, 212, 183);
-  font-size: 25px;
+  font-size: 21px;
 }
 body {
   background-image: url('./../images/bigbearlakesunset.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
+  display: block;
+
 }
 h2 {
   margin-bottom: 20px;
@@ -53,11 +55,15 @@ h2 {
   border: none;
 }
 .cardContainer{
-  padding: 15px;
+  padding: 30px;
   opacity: 0.95;
   background-color: rgba(57, 85, 63, 0.753);
   border-radius: 10px;
   color: whitesmoke;
+  background-image: url('./../images/WoodPaperBackground.jpg');
+  background-repeat: no-repeat;
+   background-position: center;
+  background-size: cover;
 }
 .top-right-card {
   padding: 30px;
@@ -91,20 +97,3 @@ h2 {
     padding: 0;
   }
 }
-
-
-/* .wrapper {
-   height: 650px; 
-   margin: auto;
-   object-fit: contain;
- } */
-/* .carousel-item {
-  margin-bottom: 15px;
-  width: 100%;
-  height: 100%;
-}
-.carousel-item img {
-  width: auto;
-  height: 650px;
-  max-height: 650px;
-} */
