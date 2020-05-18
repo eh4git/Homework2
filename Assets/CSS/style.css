@@ -23,7 +23,7 @@ a:hover {
   font-size: 21px;
 }
 body {
-  background-image: url('./../Images/bigbearlakesunset.jpg');
+  background-image: url('../Images/bigbearlakesunset.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
