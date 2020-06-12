@@ -1,40 +1,49 @@
 
+/* Google fonts: 
+All text
+font-family: 'Cabin', sans-serif;
+Title text
+font-family: 'Pacifico', cursive; */
 p{
     font-size: larger;
+    font-family: 'Cabin', sans-serif;
 }
-h1 {
-  font-family: "Philosopher", sans-serif;
-  color: whitesmoke;
-  background-color: rgba(57, 85, 63, 0.753);
-  margin-bottom: 0;
-  padding: 20px;
-}
+h1{
+    font-family: 'Pacifico', cursive;
+    color: whitesmoke;
+    background-color: rgba(57, 85, 63, 0.753);
+    margin-bottom: 0;
+    padding: 20px;
+} 
+h2{ 
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 20px;                  
+}   
+h4{
+   font-family: 'Pacifico', cursive;
+}                 
 li{
+  font-family: 'Cabin', sans-serif;
   display: block;
   font-size: 20px;
 }
 a{
+  font-family: 'Cabin', sans-serif;
   font-size:17px;
   font-weight: bold;
-  color: whitesmoke;
+  color: rgb(0, 65, 0);
 }
 a:hover {
-  color: rgb(181, 212, 183);
+  color: rgb(70, 143, 75);
   font-size: 21px;
 }
 body {
   background-image: url('../Images/bigbearlakesunset.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
-  display: block;
-
-}
-h2 {
-  margin-bottom: 20px;
+  background-size: 100% 100%;
 }
 .box{
-  color: whitesmoke;
   background-color: rgba(57, 85, 63, 0.753);
   text-align: center;
   font-size: 17px;
@@ -56,10 +65,9 @@ h2 {
 }
 .cardContainer{
   padding: 30px;
-  opacity: 0.95;
+  opacity: 0.90;
   background-color: rgba(57, 85, 63, 0.753);
   border-radius: 10px;
-  color: whitesmoke;
   background-image: url('./../images/WoodPaperBackground.jpg');
   background-repeat: no-repeat;
    background-position: center;
