@@ -1,15 +1,32 @@
-document.ready(function () {
-    $("#contactFormBtn").on("click", function (event, name, email, message) {
-        event.preventDefault();
-        //save inputs as variables
-        let name = $("#contactNameText").val();
-        let email = $("#contactEmailText").val();
-        let message = $("#contactMessageText").val();
+$(document).ready(function () {
+    // $("#contactFormBtn").on("click", function (event, name, email, message) {
+    //     event.preventDefault();
+    //     //save inputs as variables
+    //     let name = $("#contactNameText").val();
+    //     let email = $("#contactEmailText").val();
+    //     let message = $("#contactMessageText").val();
 
-        //send post request on click of submit button
-        $.post("/send", { name: name, email: email, message: message }, function (data) {
-            if (data == "sent") {
-                console.log("email sent")
-            }
+    // });
+    //landing page background animation
+    $(".parallax-container").mousemove(function (e) {
+        let screenWidth = $(window).width();
+        let screenHeight = $(window).height();
+        $(".parallax").css({
+            transform:
+                "translate(-" + e.pageX / screenWidth * 20 + "px, -" + e.pageY / screenHeight * 20 + "px)"
         });
-    }
+        $(".parallax .title").css({
+            transform:
+                "translate(" + e.pageX / screenWidth * 45 + "px, " + e.pageY / screenHeight * 45 + "px)"
+        });
+    });
+
+    //landing page logo animation
+    //   $(".name").arctext({radius: 700});
+
+    setTimeout(function () {
+        console.log("setTimeout function running")
+        const profileEnterBtn = "<button id='viewProfileBtn' class='btn btn-primary' href='profile.html'>View Profile</button>"
+        $("#buttonInsertSpace").append(profileEnterBtn)
+    }, 4500);
+});
