@@ -28,7 +28,7 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  background-image: url("https://i.pinimg.com/originals/e0/57/44/e05744161d7500a183d5ec3a38a6e626.jpg");
+  background-image: url("https://chromemusic.de/wp-content/uploads/2017/01/bFDmgDE-Imgur.gif");
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -290,8 +290,7 @@ body {
 }
 
 #viewProfileBtn {
-  background-color: #bdbdbd;
-  color: #212121;
+  color: #bdbdbd;
   border: none;
   font-family: "Roboto Slab";
 }

@@ -26,7 +26,13 @@ $(document).ready(function () {
 
     setTimeout(function () {
         console.log("setTimeout function running")
-        const profileEnterBtn = "<button id='viewProfileBtn' class='btn btn-primary' href='profile.html'>View Profile</button>"
-        $("#buttonInsertSpace").append(profileEnterBtn)
+        const profileEnterBtn = "<a id='viewProfileBtn'>View Profile</a>"
+        $("#buttonInsertSpace").append(profileEnterBtn);
+        $("#viewProfileBtn").attr("href", "profile.html");
     }, 4500);
+
+   
+    // $("viewProfileBtn").click(()=>{
+    //     window.location.href = "profile.html"
+    // })
 });

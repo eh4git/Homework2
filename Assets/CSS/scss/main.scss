@@ -20,7 +20,7 @@ body {
     cursor: pointer;
     .parallax {
       flex: 1 1 auto;
-      background-image: url("https://i.pinimg.com/originals/e0/57/44/e05744161d7500a183d5ec3a38a6e626.jpg");
+      background-image: url("https://chromemusic.de/wp-content/uploads/2017/01/bFDmgDE-Imgur.gif");
       background-size: cover;
       display: flex;
       align-items: center;
@@ -201,8 +201,8 @@ $accent: #bdbdbd;
   }
 }
 #viewProfileBtn{
-    background-color: $accent;
-    color: $main;
+   
+    color: $accent;
     border: none;
     font-family: "Roboto Slab";
 }
