@@ -14,7 +14,7 @@
 ### Description
 In this project I have created a website to showcase the work I have completed during my time in the Web Development Boot Camp at UCLA Extension. This website currently consists of a landing page, a profile page, an about me, and a contact page. The landing page utilizes main.scss to generate the the css required for the animations. The entire site has a consistent navigation bar that functions properly as well as a sticky footer that is translucent. On the navigation bar there are links to my LinkedIn and my GitHub profile. The pages are responsive and will scale without distorting images. The profile page consists of the recent works I wish to highlight as well as links to specific repositories. The about me page has a few generic lists and some jokes as placeholders for future content. The contact page has a form to fill out that includes name, email, and a text area to write a message. The functionality of the form will be addressed in the future after learning . 
 ### Useage
-Go to ![Github Professional Profile](https://eh4git.github.io/Professional_Profile/)<br>
+Go to [Github Professional Profile](https://eh4git.github.io/Professional_Profile/)<br>
 ### Licence
 This project uses the following licence(s):<br>
 None
