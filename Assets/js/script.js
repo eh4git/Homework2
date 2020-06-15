@@ -26,7 +26,7 @@ $(document).ready(function () {
 
     setTimeout(function () {
         console.log("setTimeout function running")
-        const profileEnterBtn = "<a id='viewProfileBtn'>View Profile</a>"
+        const profileEnterBtn = `<a id='viewProfileBtn'>View Profile</a>`
         $("#buttonInsertSpace").append(profileEnterBtn);
         $("#viewProfileBtn").attr("href", "profile.html");
     }, 4500);
